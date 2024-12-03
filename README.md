@@ -11,3 +11,5 @@ This project demonstrates a dashboard built with React and TypeScript, integrati
 1. Clone the repository:
    ```bash
    git clone https://github.com/edgarpecero/react-flow-and-charts.git
+
+![image](https://github.com/user-attachments/assets/1c2743a0-72da-4d4e-808e-bd85ddfb9412)
