@@ -1,12 +1,12 @@
 import { Box, Grid2, Typography } from '@mui/material';
 import Flow from '../components/Flow/Flow';
-import BarChartWrapped from '../components/Charts/BarChart';
-import LineChartWrapped from '../components/Charts/LineChart';
+// import BarChartWrapped from '../components/Charts/BarChart';
+// import LineChartWrapped from '../components/Charts/LineChart';
 import GaugeWrapped from '../components/Charts/Gauge';
 
 const chartComponents = [
-    { component: <BarChartWrapped />, label: 'Bar Chart' },
-    { component: <LineChartWrapped />, label: 'Line Chart' },
+    // { component: <BarChartWrapped />, label: 'Bar Chart' },
+    // { component: <LineChartWrapped />, label: 'Line Chart' },
     { component: <GaugeWrapped />, label: 'Gauge' },
 ];
 

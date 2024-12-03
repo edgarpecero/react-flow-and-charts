@@ -1,13 +1,17 @@
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import theme from './theme';
-import Dashboard from './pages/Dashboard';
+import { Outlet } from 'react-router-dom';
+import { Suspense } from 'react';
+import { Box } from '@mui/material';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Dashboard />
+      <Suspense>
+        <Outlet />
+      </Suspense>
     </ThemeProvider>
   );
 };
